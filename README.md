@@ -13,10 +13,10 @@ To draw graphs, you have to install pyplot in your local system. You can find th
 	
 	$ make draw
 	
-**To run simulator manually: **
+**To run simulator manually:**
 
 	$ python Simulator.py
 	
-**To draw graphs manually: **
+**To draw graphs manually:**
 
 	$ python3 DrawGraphs.py
