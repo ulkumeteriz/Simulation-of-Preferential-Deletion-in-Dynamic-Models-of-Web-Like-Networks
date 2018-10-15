@@ -8,7 +8,7 @@ from random import *
 ######################################################################################
 
 def chooseBirth(nodes, totalDegrees):
-  if len(nodes) == 1 or totalDegrees == 0:
+  if len(nodes) == 1 or totalDegrees <= 1:
     return nodes[0]
   r = randint(1, totalDegrees-1)
   for n in nodes:
@@ -20,7 +20,7 @@ def chooseBirth(nodes, totalDegrees):
       
 def chooseDeath(nodes, denominator):
   
-  if len(nodes) == 1 or denominator == 0:
+  if len(nodes) == 1 or denominator <= 1:
     return nodes[0]
     
   r = randint(1, denominator-1)
